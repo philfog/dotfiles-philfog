@@ -1,0 +1,14 @@
+[user]
+       username = philfog
+       name = philfog
+       signingkey = FA663C2A1257CFEE8F09C1616181B3FE3FFC2D2E
+[aliases]
+       github = philfog
+       bitbucket = philfog
+[commit]
+       gpgsign = true
+[alias]
+       pushall = !git remote | xargs -L1 -I R git push R $2
+[merge "ours"]
+       driver = true
+
